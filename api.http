@@ -1,0 +1,65 @@
+GET http://localhost:3000/api/v1/magazine
+
+
+###
+
+POST http://localhost:3000/api/v1/magazine HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Business Standard",
+    "author": "Rahul Khatri",
+    "category": "Business",
+    "content": "This magazine has the newest budget discussions and financial planning"
+}
+
+###
+
+POST http://localhost:3000/api/v1/magazine HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Digit Gaming",
+    "author": "Mayank Khurana",
+    "category": "Technology",
+    "content": "All about video games this month"
+}
+
+###
+
+POST http://localhost:3000/api/v1/magazine HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Dalal Street Journal",
+    "author": "Shubham Thorve",
+    "category": "Technology",
+    "content": "All about video games this month"
+}
+
+###
+
+POST http://localhost:3000/api/v1/magazine/vsearch/1 HTTP/1.1
+content-type: application/json
+
+{
+    "query": "budget"
+}
+
+###
+
+POST http://localhost:3000/api/v1/magazine/tsearch/1 HTTP/1.1
+content-type: application/json
+
+{
+    "query": "budget"
+}
+
+###
+
+POST http://localhost:3000/api/v1/magazine/hybridsearch/1 HTTP/1.1
+content-type: application/json
+
+{
+    "query": "Murray"
+}
