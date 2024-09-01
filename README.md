@@ -94,13 +94,20 @@ I have used PostgreSQL with pgvector (storing embedding vectors) and tsvector (s
    - Pagination added for reduce load times
       - limit and offset in queries
 ![Performance report graph](/performance.png)
-**Profile:** Peak
-**Virtual Users:** 20
-**Test Duration:** 5 minutes
-**Endpoint hit:** POST /api/v1/magazine/hybridsearch/1 ("glasgow", "game", "business", "shubham", "food" and "modern")
-**Total requests sent:** 10,915
-**Request per second:** 35.62
-**Avg response time:** 116 ms
+- **Profile:** Peak
+  
+- **Virtual Users:** 20
+  
+- **Test Duration:** 5 minutes
+  
+- **Endpoint hit:** POST /api/v1/magazine/hybridsearch/1 ("glasgow", "game", "business", "shubham", "food" and "modern")
+  
+- **Total requests sent:** 10,915
+  
+- **Request per second:** 35.62
+  
+- **Avg response time:** 116 ms
+  
 ---
 
 ## Hybrid search implementation explained
