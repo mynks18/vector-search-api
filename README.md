@@ -93,7 +93,7 @@ I have used PostgreSQL with pgvector (storing embedding vectors) and tsvector (s
         
    - Pagination added for reduce load times
       - limit and offset in queries
-![Performance report graph](/Screenshot 2024-09-01 at 19.05.54.png)
+![Performance report graph](/performance.png)
 **Profile:** Peak
 **Virtual Users:** 20
 **Test Duration:** 5 minutes
