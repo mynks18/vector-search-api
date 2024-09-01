@@ -50,5 +50,3 @@ Follow these steps to set up and run the project:
 - [Ollama Download](https://ollama.com/download)
 
 ---
-
-Follow these instructions carefully to set up and run the project. If you encounter any issues, refer to the project documentation or reach out for assistance.
