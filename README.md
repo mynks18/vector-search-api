@@ -13,7 +13,7 @@ Follow these steps to set up and run the project:
 2. **Configure the Project**
    - Navigate to the `config` folder in the project directory.
    - Open `db.js` and update line 3:
-     - Change the username from `mayansharma` to your system username.
+     - Change the username from `mayanksharma` to your system username.
 
 3. **Set Up the Database**
    - In the Postgres app, double-click on the database with your username to open a terminal.
