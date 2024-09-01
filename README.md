@@ -1,4 +1,8 @@
-# Take-home Assignment Documentation
+# Hybrid search using full-text and vector search
+
+- This is a search function which used llama LLM model to generate embeddings (1024)
+- Embeddings are stored in posgres leveraging pgvector library
+- REST endpoint written in ExpressJS
 
 ## Setup Instructions
 
